@@ -61,7 +61,8 @@ nav{
 
 .text{
     width: 100%;
-    font-size: 65px;
+    font-size: 4em;
+    font-variant:small-caps;
     font-weight: bolder;
 }
 
