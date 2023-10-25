@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* Header */
 nav{
     width: 100%;
     height: 75px;
-    background-color: red;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .row-nav{
@@ -18,6 +23,8 @@ nav{
     justify-content: end;
     align-items: center;
 }
+
+/* Items Header */
 
 .col-nav button{
     border-radius: 100%;
@@ -29,7 +36,58 @@ nav{
 
 }
 
+/* Main */
+
+.box{
+    width: 100%;
+    height: 100vh ;
+    position: relative;
+}
+
+.cont-box{
+    max-width: 700px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Items Main */
+
+.cont-box img{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+
+
 .pointer:hover{
     cursor: pointer;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.text-green{
+    color: green;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
 
