@@ -26,14 +26,13 @@ nav{
 
 /* Items Header */
 
-.col-nav button{
-    border-radius: 100%;
+.col-nav a{
+    background-color: white;
+    border-radius: 50%;
     padding: 10px 15px;
-    margin: 0 10px;
-
+    margin: 0 10px;   
+    text-decoration: none;
     font-weight: 800;
-    border: none;
-
 }
 
 /* Main */
